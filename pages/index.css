@@ -6,3 +6,138 @@
   line-height: 20px;
   margin: 0 auto;
 }
+
+.header {
+  background-color: #fff;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 0 30px;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  position: absolute;
+  height: 125px;
+  width: 142px;
+}
+
+.nav__links {
+  margin: 0;
+  display: flex;
+  column-gap: 20px;
+  list-style-type: none;
+  position: relative;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.nav__link:hover {
+  color: #1f69c9;
+}
+
+.header__span-accent {
+  display: block;
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.header__title {
+  max-width: 729px;
+  font-size: 60px;
+  line-height: 72px;
+  font-weight: 500;
+  margin: 202px 0px 0px 80px;
+  font-family: "Inter";
+}
+
+.header__description {
+  font-family: "Noto Serif";
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 28px;
+  margin-left: 80px;
+  max-width: 683px;
+}
+
+.header__background-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header__image {
+  z-index: 1;
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  max-height: 646px;
+  max-width: 568px;
+}
+
+.header__footer {
+  align-items: center;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+}
+
+.header__columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__column_content_hours {
+  margin-left: 80px;
+  margin-bottom: 40px;
+}
+
+.header__column_content_address {
+  margin-left: 80px;
+  margin-bottom: 40px;
+}
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  font-size: ;
+  line-height: ;
+  margin-bottom: ;
+}
+
+.footer__list-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.footer__column-heading {
+  font-size: ;
+  line-height: ;
+  margin: ;
+}
+
+.header__paragraph {
+}
+
+.recipes {
+  background-color: #0a2750;
+}
