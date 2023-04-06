@@ -26,7 +26,6 @@
 }
 
 .logo {
-  position: absolute;
   height: 125px;
   width: 142px;
 }
@@ -65,7 +64,7 @@
   font-size: 60px;
   line-height: 72px;
   font-weight: 500;
-  margin: 202px 0px 0px 80px;
+  margin: 80px 0px 0px 80px;
   font-family: "Inter", Arial, sans-serif;
 }
 
@@ -96,19 +95,10 @@
   line-height: 20px;
   color: #838383;
   justify-content: space-between;
-  padding: 0 80px 40px 80px;
-}
-
-.header__columns {
-  display: flex;
-  justify-content: space-between;
-}
-
-.header__column_content_hours {
-}
-
-.header__column_content_address {
-  margin: auto 80px 40px;
+  width: 100%;
+  bottom: 40px;
+  right: 0px;
+  box-sizing: border-box;
 }
 
 .header__paragraph {
@@ -118,7 +108,8 @@
   line-height: 20px;
   color: #838383;
   display: flex;
-  margin-bottom: 40px;
+  margin: 0;
+  padding: 0 80px;
 }
 
 .recipes {
