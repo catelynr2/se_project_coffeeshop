@@ -150,7 +150,6 @@
   padding-top: 80px;
   column-gap: 40px;
   height: 480px;
-  width: 273px;
 }
 
 .recipes__iframe {
@@ -163,6 +162,6 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-  display: flex;
-  justify-content: space-between;
+  margin-top: 0;
+  margin-bottom: 0;
 }
