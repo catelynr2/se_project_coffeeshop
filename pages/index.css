@@ -149,13 +149,14 @@
   justify-content: center;
   padding-top: 80px;
   column-gap: 40px;
-  height: 480px;
 }
 
 .recipes__iframe {
 }
 
 .recipes__video-caption {
+  display: flex;
+  justify-content: space-between;
   padding-top: 24px;
   padding-bottom: 215px;
   font-family: "Inter", Arial, sans-serif;
