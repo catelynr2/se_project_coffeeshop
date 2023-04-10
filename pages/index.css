@@ -185,6 +185,7 @@
 
 .reservation__title {
   margin-top: 0;
+  margin-bottom: 0;
   padding-top: 100px;
   padding-bottom: 80px;
   font-family: Inter;
@@ -218,16 +219,26 @@
   line-height: 30px;
   color: #838383;
   height: 60px;
+  width: 385px;
+}
+
+.form__input::placeholder {
+  padding-left: 10px;
 }
 
 .form__button {
   border-radius: 4px;
   opacity: 100%;
-  transition-property: opacity 1s ease-in 2s;
+  transition: opacity 0.5s ease-in 0.5s;
   font-family: Inter;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  background-color: #2f80ed;
+  color: #fff;
+  width: 385px;
+  height: 60px;
+  margin: 0 auto;
 }
 
 .form__button:hover {
@@ -242,4 +253,13 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  margin-bottom: 120px;
+  padding-bottom: 0;
+  margin-right: 12px;
+  height: 20px;
+  width: 20px;
+}
+
+[type="checkbox"] {
+  vertical-align: top;
 }
