@@ -181,6 +181,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  padding-left: 0;
 }
 
 .reservation__title {
@@ -204,6 +205,8 @@
 .form__fieldset {
   border: 0;
   padding-bottom: 32px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .form__label {
@@ -260,8 +263,9 @@
   width: 20px;
 }
 
-.form__fieldset form__fieldset_checkbox {
+.form__fieldset_checkbox {
   display: flex;
+  justify-content: center;
 }
 
 [type="checkbox"] {
