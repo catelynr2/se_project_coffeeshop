@@ -260,6 +260,10 @@
   width: 20px;
 }
 
+.form__fieldset form__fieldset_checkbox {
+  display: flex;
+}
+
 [type="checkbox"] {
   vertical-align: top;
 }
