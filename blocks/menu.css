@@ -42,6 +42,7 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 540px;
   flex-basis: 400px;
   flex-grow: 1;
