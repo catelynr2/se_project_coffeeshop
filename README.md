@@ -1,6 +1,6 @@
 # Practicum Coffee Shop
 
-This is the second project of the Web Development program at Practicum. It was created using HTML and CSS, based on the design brief.
+This is the second project of the Web Development program at Practicum. It was created using HTML and CSS, based on the design brief, and functions as a webpage where users can find information about the cafe and make a reservation to dine in.
 
 ## Project features
 
@@ -11,10 +11,6 @@ This is the second project of the Web Development program at Practicum. It was c
 - A custom form
 - CSS animation and transform
 
-## Plan on improving the project
+### Plan on improving the project
 
-Add your ideas here :)
-
-Project name.
-Project description (i.e. describe the functionality and the technologies used).
-Plans for improving the project. While working on the project, you might have some ideas on how to improve the webpage, such as extra styling or useful features. Try coming up with at least one improvement that you’d like to implement in the future, or learn how to implement. This doesn’t mean you’ll have to work on it, but doing so would be a real plus for your portfolio. It shows that you can think larger, express your individuality, and do more than simply follow instructions.
+I feel as though the webpage is a little stagnant. To improve it, I would add some more moving parts to each page. Additionally, I would make it more uniform and aesthetically pleasing to browse through by following a color scheme.
