@@ -36,6 +36,7 @@
   margin-top: 28px;
   margin-left: 80px;
   max-width: 683px;
+  margin-bottom: 0;
 }
 
 .header__image {
@@ -49,7 +50,7 @@
 .header__footer {
   position: absolute;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -60,6 +61,7 @@
   bottom: 40px;
   right: 0px;
   box-sizing: border-box;
+  padding-left: 40px;
 }
 
 .header__paragraph {

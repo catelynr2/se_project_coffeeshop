@@ -30,7 +30,7 @@
   line-height: 52px;
   font-weight: 500;
   z-index: 1;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
 }
 
 .about__content {
@@ -38,7 +38,7 @@
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   padding: 119px 80px 173px;
 }
 
