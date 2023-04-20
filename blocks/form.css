@@ -46,7 +46,7 @@
   opacity: 70%;
 }
 
-.form__label_checkbox {
+.form__label_type_checkbox {
   border-radius: 2px;
   background-color: #2f80ed;
   background-image: url(../images/check.svg);
@@ -62,7 +62,7 @@
   vertical-align: top;
 }
 
-.form__fieldset_checkbox {
+.form__fieldset_type_checkbox {
   display: flex;
   justify-content: center;
 }
