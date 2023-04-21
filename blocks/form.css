@@ -50,19 +50,23 @@
 .form__fieldset_type_checkbox {
   display: flex;
   justify-content: center;
+  padding: 0;
 }
 
 .form__label_type_checkbox {
-  border-radius: 2px;
   font-family: Inter, Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   padding-bottom: 120px;
-  height: 20px;
-  width: 20px;
   vertical-align: top;
   display: flex;
   justify-content: center;
   gap: 12px;
+}
+
+.form__input_type_checkbox {
+  border-radius: 2px;
+  height: 20px;
+  width: 20px;
 }
